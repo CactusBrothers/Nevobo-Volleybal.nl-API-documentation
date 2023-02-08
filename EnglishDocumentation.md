@@ -19,6 +19,19 @@ Depending on the type provided in the url will the api return different formats:
 * xlsx - Excel format, containing a spreadsheet with date, time, teams, location, field, region, poule, code, hallcode, hall, place, referees and status. This is more information than provided with rss!
 * ics - Calendar format, conatain every match as event, to easily add to a calendar.
 
+### **GET** https://api.nevobo.nl/export/poule/{regio}/{poule}/resultaten.{type}
+**Url for getting the results of a poule (not standings!)**
+
+* regio - the region of the poule: ‘regio-noord’ ‘regio-oost’ ‘regio-zuid’ ‘regio-west’ ‘nationale-competitie’ ‘kampioenschappen’.
+* poule - poule code, present on volleybal.nl: go to the page of your team, then click export -> rss. This will open a link with region and code of the poule.
+* type - the type of response: 'rss' 'xlsx' (not 'ics'!)
+
+**Response**
+
+Depending on the type provided in the url will the api return different formats:
+* rss - XML format, containing a list of results in the poule.
+* xlsx - Excel format, containing a spreadsheet with date, time, teams, location, field, region, poule, code, hallcode, hall, place, referees and status. This is more information than provided with rss!
+* ics - Calendar format, conatain every match as event, to easily add to a calendar.
 
 ## TODO:
 1. add file with all club and team codes
