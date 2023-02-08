@@ -4,7 +4,7 @@ Unofficial API documentation for the Nevobo (Nederlandse Volleybal Bond) website
 Welcome to the documentation of the nevovo api, this file is just the "hub" to navigate to the multiple files.
 
 ## English API Documentation:
-The English documentation of the api url's can be found [here](../blob/main/EnglishDocumentation.md)
+The English documentation of the api url's can be found [here](../main/EnglishDocumentation.md)
 
 ## Club Codes and Team Codes
 The club codes can be found with some difficulty on the volleybal.nl, but I created a json file with all club codes and itd corresponding team codes.
